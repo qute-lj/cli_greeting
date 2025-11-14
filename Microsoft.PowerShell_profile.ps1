@@ -1,0 +1,72 @@
+# PowerShell 7 UTF-8 配置
+# 设置UTF-8编码以支持中文和特殊字符
+
+# 设置控制台编码为UTF-8
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+[Console]::InputEncoding = [System.Text.Encoding]::UTF8
+
+# 设置PowerShell内部编码为UTF-8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
+# 设置代码页为UTF-8 (65001)
+try {
+    chcp 65001 | Out-Null
+} catch {
+    # 忽略可能的错误
+}
+
+# 设置环境变量以支持UTF-8
+$env:LANG = "en_US.UTF-8"
+$env:LC_ALL = "en_US.UTF-8"
+$env:PYTHONIOENCODING = "utf-8"
+
+# 随机欢迎语
+$welcomeMessages = @(
+    # Programming & Tech Quotes
+    "从一个胜利走向另一个胜利！",
+    "代码改变世界，今天又是充满可能性的一天！",
+    "保持好奇，持续学习！",
+    "每一行代码都是进步的足迹！",
+    "今天的bug是明天的feature！",
+    "专注当下，创造未来！",
+    "简单是复杂的终极形态！",
+    "优秀的代码是最好的文档！",
+    "持续迭代，持续改进！",
+    "程序员的浪漫：用0和1创造世界！",
+    "the only time you know an eq is the moment you program it.",
+    "工欲善其事，必先利其器。",
+    "人无远虑，必有近忧。",
+    "do not tell, show it.",
+
+    # The Analects of Confucius
+    "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？",
+    "人不知而不愠，不亦君子乎？",
+    "吾日三省吾身：为人谋而不忠乎？与朋友交而不信乎？传不习乎？",
+    "君子食无求饱，居无求安，敏于事而慎于言，就有道而正焉。",
+    "不患人之不己知，患不知人也。",
+    "温故而知新，可以为师矣。",
+    "学而不思则罔，思而不学则殆。",
+    "知之为知之，不知为不知，是知也。",
+    "见贤思齐焉，见不贤而内自省也。",
+    "朝闻道，夕死可矣。",
+    "君子喻于义，小人喻于利。",
+    "三人行，必有我师焉。",
+    "君子欲讷于言而敏于行。",
+    "德不孤，必有邻。",
+    "知之者不如好之者，好之者不如乐之者。",
+    "逝者如斯夫，不舍昼夜。",
+    "三军可夺帅也，匹夫不可夺志也。",
+    "岁寒，然后知松柏之后凋也。",
+    "知者不惑，仁者不忧，勇者不惧。",
+    "君子坦荡荡，小人长戚戚。",
+    "士不可以不弘毅，任重而道远。",
+    "己所不欲，勿施于人。",
+    "君子成人之美，不成人之恶。",
+    "君子和而不同，小人同而不和。",
+    "其身正，不令而行；其身不正，虽令不从。",
+    "君子求诸己，小人求诸人。",
+    "言必信，行必果。"
+)
+
+$randomMessage = Get-Random -InputObject $welcomeMessages
+Write-Host $randomMessage -ForegroundColor Green
