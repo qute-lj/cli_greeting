@@ -11,7 +11,7 @@
 ### 功能特色
 
 - 🎲 **随机显示**：从数百条精选语句中随机选择一条
-- 📚 **内容丰富**：包含编程智慧、人生哲理、国学经典
+- 📚 **内容丰富**：包含编程智慧、人生哲理、《论语》、《孙子兵法》等国学经典
 - 🎨 **彩色输出**：绿色文字清晰醒目
 - ⚡ **轻量快速**：不影响启动速度
 - 🛠️ **易于定制**：可以轻松添加或修改语句
@@ -50,7 +50,7 @@ Add random greetings to your PowerShell terminal. Get a different dose of wisdom
 ### Features
 
 - 🎲 **Random Display**: Selects randomly from hundreds of curated quotes
-- 📚 **Rich Content**: Programming wisdom, life philosophy, Chinese classics
+- 📚 **Rich Content**: Programming wisdom, life philosophy, Chinese classics including The Analects and The Art of War
 - 🎨 **Colorful Output**: Clear and prominent green text
 - ⚡ **Lightweight**: No impact on startup speed
 - 🛠️ **Customizable**: Easy to add or modify quotes
@@ -89,7 +89,7 @@ PowerShellターミナルにランダムな挨拶を追加します。開くた�
 ### 特徴
 
 - 🎲 **ランダム表示**: 数百の厳選された引用からランダムに選択
-- 📚 **豊富なコンテンツ**: プログラミングの知恵、人生哲学、中国古典
+- 📚 **豊富なコンテンツ**: プログラミングの知恵、人生哲学、論語、孫子の兵法などの中国古典
 - 🎨 **カラフル出力**: 目立つ緑色のテキスト
 - ⚡ **軽量**: 起動速度に影響なし
 - 🛠️ **カスタマイズ可能**: 引用の追加や変更が簡単
