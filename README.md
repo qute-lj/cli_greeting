@@ -37,8 +37,8 @@
 ### 示例效果
 
 ```
-PS C:\Users\Username> 从一个胜利走向另一个胜利！
-PS C:\Users\Username>
+从一个胜利走向另一个胜利！
+PS C:\Users\DELL>
 ```
 
 ---
@@ -76,8 +76,8 @@ Easily add your own quotes or create different themes.
 ### Example Effect
 
 ```
-PS C:\Users\Username> Code changes the world, today is full of possibilities!
-PS C:\Users\Username>
+Code changes the world, today is full of possibilities!
+PS C:\Users\DELL>
 ```
 
 ---
@@ -115,8 +115,8 @@ PowerShellターミナルにランダムな挨拶を追加します。開くた�
 ### 例
 
 ```
-PS C:\Users\Username> ある勝利から別の勝利へ！
-PS C:\Users\Username>
+ある勝利から別の勝利へ！
+PS C:\Users\DELL>
 ```
 
 ---
