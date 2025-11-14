@@ -34,11 +34,34 @@
 
 您可以轻松添加自己的语句或创建不同主题。
 
+### UTF-8 支持
+
+配置文件包含完整的 UTF-8 编码设置，确保中文和特殊字符正确显示：
+- 控制台输入输出编码
+- PowerShell 内部编码
+- 代码页设置 (65001)
+- 环境变量配置
+
+详细说明请参考：[UTF-8 配置指南](docs/utf8-config-guide.md)
+
 ### 示例效果
 
 ```
 从一个胜利走向另一个胜利！
 PS C:\Users\DELL>
+```
+
+### 文件结构
+
+```
+cli_greeting/
+├── Microsoft.PowerShell_profile.ps1    # 主配置文件
+├── quotes/                              # 引用语料库
+│   ├── analects.md                      # 《论语》名句
+│   └── art-of-war.md                    # 《孙子兵法》名句
+├── docs/                                # 文档
+│   └── utf8-config-guide.md             # UTF-8配置指南
+└── README.md                            # 项目说明
 ```
 
 ---
@@ -73,11 +96,34 @@ Add the code to the end of your existing PowerShell Profile file.
 
 Easily add your own quotes or create different themes.
 
+### UTF-8 Support
+
+The configuration file includes complete UTF-8 encoding settings to ensure Chinese and special characters display correctly:
+- Console input/output encoding
+- PowerShell internal encoding
+- Code page settings (65001)
+- Environment variable configuration
+
+For details, see: [UTF-8 Configuration Guide](docs/utf8-config-guide.md)
+
 ### Example Effect
 
 ```
 Code changes the world, today is full of possibilities!
 PS C:\Users\DELL>
+```
+
+### File Structure
+
+```
+cli_greeting/
+├── Microsoft.PowerShell_profile.ps1    # Main configuration file
+├── quotes/                              # Quote library
+│   ├── analects.md                      # The Analects quotes
+│   └── art-of-war.md                    # The Art of War quotes
+├── docs/                                # Documentation
+│   └── utf8-config-guide.md             # UTF-8 configuration guide
+└── README.md                            # Project documentation
 ```
 
 ---
@@ -112,11 +158,34 @@ PowerShellターミナルにランダムな挨拶を追加します。開くた�
 
 独自の引用を追加したり、異なるテーマを作成したりできます。
 
+### UTF-8 サポート
+
+設定ファイルには、中国語や特殊文字が正しく表示されるように完全なUTF-8エンコーディング設定が含まれています：
+- コンソール入出力エンコーディング
+- PowerShell内部エンコーディング
+- コードページ設定（65001）
+- 環境変数設定
+
+詳細はこちら：[UTF-8設定ガイド](docs/utf8-config-guide.md)
+
 ### 例
 
 ```
 ある勝利から別の勝利へ！
 PS C:\Users\DELL>
+```
+
+### ファイル構成
+
+```
+cli_greeting/
+├── Microsoft.PowerShell_profile.ps1    # メイン設定ファイル
+├── quotes/                              # 引用ライブラリ
+│   ├── analects.md                      # 論語の引用
+│   └── art-of-war.md                    # 孫子の兵法の引用
+├── docs/                                # ドキュメント
+│   └── utf8-config-guide.md             # UTF-8設定ガイド
+└── README.md                            # プロジェクトドキュメント
 ```
 
 ---
